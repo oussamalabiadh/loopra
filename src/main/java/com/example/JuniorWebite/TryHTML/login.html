@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>User Login</title>
+</head>
+<body>
+
+<h2>User Login</h2>
+
+<form id="loginForm" action="http://localhost:8080/api/v1/user/login" method="post" >
+  <label for="userEmail">Email:</label>
+  <input type="email" id="userEmail" name="userEmail" required><br>
+
+  <label for="userPassword">Password:</label>
+  <input type="password" id="userPassword" name="userPassword" required><br>
+
+  <input type="submit" value="Login">
+</form>
+
+</body>
+</html>
